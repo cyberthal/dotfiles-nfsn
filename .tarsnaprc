@@ -4,7 +4,7 @@
 cachedir /home/private/tarsnap/cache
 
 # Tarsnap key file
-keyfile /home/private/tarsnap/tarsnap.key
+keyfile /home/private/tarsnap/write-only-key.txt
 
 # Don't archive files which have the nodump flag set
 nodump
