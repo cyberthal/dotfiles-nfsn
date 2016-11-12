@@ -1,6 +1,5 @@
+# show directory listings
 Options +Indexes
 
-RewriteCond %{HTTP_HOST} www.example.com$
-RewriteRule ^(.*)$ http://example.com$1 [R=301,L]
-
-RedirectMatch ^/$ /xf/
+# 301 redirect root to forum subdir.
+RedirectMatch 301 ^/$ /xf/
