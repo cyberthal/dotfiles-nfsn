@@ -1,0 +1,5 @@
+# show directory listings
+Options +Indexes
+
+# 301 redirect root to forum subdir.
+RedirectMatch 301 ^/$ /xf/
