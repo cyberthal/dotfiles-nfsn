@@ -2,4 +2,4 @@
 Options +Indexes
 
 # 301 redirect root to forum subdir.
-RedirectMatch 301 ^/$ /xf/
+RedirectMatch 301 ^/$ /phpbb/
