@@ -1,4 +1,7 @@
 #!/bin/bash
 
-cp -f ./.htaccess /home/public
-cp -f ./.profile /home/private
+rm -f /home/public/.htaccess
+cp .htaccess /home/public
+
+rm -f /home/private/.profile
+cp -f .profile /home/private
