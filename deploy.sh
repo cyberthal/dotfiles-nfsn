@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -fs .htaccess /home/public
-ln -fs .profile /home/private
+cp -f .htaccess /home/public
+cp -f .profile /home/private
